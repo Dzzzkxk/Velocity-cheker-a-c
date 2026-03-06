@@ -18,7 +18,7 @@ local function setupSpeedGui(player)
         billboard.AlwaysOnTop = true
         billboard.Adornee = head
         billboard.Parent = head
-        billboard.MaxDistance = 200
+        billboard.MaxDistance = 1000
 
         local label = Instance.new("TextLabel")
         label.Size = UDim2.new(1, 0, 1, 0)
